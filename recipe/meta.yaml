@@ -1,5 +1,5 @@
 {% set name = "editabletuple" %}
-{% set version = "1.5.2" %}
+{% set version = "1.5.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/editabletuple-{{ version }}.tar.gz
-  sha256: 033cd9cfb8eac81a722dcb545dd509d82b26337d7f087cfa860866dfc3ca0fee
+  sha256: 688bf2ddd1c88bdb9c0e845a87720f7b6065c9bf9bee8dc9c86e3ea4f7f49fdc
 
 build:
   noarch: python
